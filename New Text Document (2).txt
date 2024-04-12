@@ -1,0 +1,18 @@
+
+	
+	write a qury to display total salary of all employees best on city whoes average salary is greater than = 23k
+	find the 2nd & 3rd highest salary of employee 
+	Filters
+	Oops Concept
+	how to implements abstraction and encapsulation	session
+	routing	type of classes
+
+
+
+
+
+	Select count(*) Salary from employee
+	group by City
+	where
+	(select avg(salary) >= 23000)
+	 
